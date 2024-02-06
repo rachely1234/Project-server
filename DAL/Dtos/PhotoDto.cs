@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Interface
+namespace DAL.Dtos
 {
-    internal interface Class1
+    public class PhotoDto
     {
+        public int id { get; set; }
     }
 }

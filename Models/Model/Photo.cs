@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Data
+namespace Models.Model
 {
-    internal class user
+    public class Photo
     {
+        public int id { get; set; }
+        public int MyProperty { get; set; }
+
     }
 }

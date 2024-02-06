@@ -3,29 +3,29 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Webapi.Controllers
 {
-    public class Posts : Controller
+    public class PhotosController : Controller
     {
-        // GET: Posts
+        // GET: Photos
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: Posts/Details/5
+        // GET: Photos/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Posts/Create
+        // GET: Photos/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Posts/Create
+        // POST: Photos/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
             try
@@ -38,13 +38,13 @@ namespace Webapi.Controllers
             }
         }
 
-        // GET: Posts/Edit/5
+        // GET: Photos/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Posts/Edit/5
+        // POST: Photos/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -59,13 +59,13 @@ namespace Webapi.Controllers
             }
         }
 
-        // GET: Posts/Delete/5
+        // GET: Photos/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Posts/Delete/5
+        // POST: Photos/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
